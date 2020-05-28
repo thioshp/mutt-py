@@ -7,7 +7,7 @@ USAGE: mutt.py -s "Subject line" -r "address1@gmail.com, address2@gmail.com" -rt
 
 example mutt command which will be created:
 # reply-to field; PUT YOUR EMAIL HERE
-export EMAIL="kellys04@nyumc.org"
+export EMAIL="thioshp@outlook.com"
 recipient_list="address1@gmail.com, address2@gmail.com"
 mutt -s "$SUBJECT_LINE" -a "$attachment_file" -a "$summary_file" -a "$zipfile" -- "$recipient_list" <<E0F
 email message HERE
